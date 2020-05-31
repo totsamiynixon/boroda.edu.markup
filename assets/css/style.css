@@ -30,3 +30,19 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.logo {
+    width: 120px;
+}
+
+.navbar-transparent .logo-black {
+    display: none;
+}
+
+nav:not(.navbar-transparent) .logo-black {
+    display: block;
+}
+
+nav:not(.navbar-transparent) .logo-white  {
+    display: none;
+}
