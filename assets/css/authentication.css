@@ -1,0 +1,12 @@
+.image-body {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.image-body img {
+    width: 640px;
+    height: 360px;
+}
+body {
+    overflow: hidden;
+}
